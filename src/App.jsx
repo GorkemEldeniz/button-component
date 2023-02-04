@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Button as ButtonPage } from "./pages/Button/Button";
+import { Button } from "./pages/Button/Button";
 import Home from "./pages/Home/Home";
 import { Colors } from "./pages/Colors/Colors";
 import { Grid } from "./pages/Grid/Grid";
@@ -14,7 +14,7 @@ function App() {
 		<Routes>
 			<Route element={<Layout />}>
 				<Route path='/' index element={<Home />} />
-				<Route path='buttons' element={<ButtonPage />} />
+				<Route path='buttons' element={<Button />} />
 				<Route path='colors' index element={<Colors />} />
 				<Route path='grid' index element={<Grid />} />
 				<Route path='spaces' index element={<Spaces />} />
