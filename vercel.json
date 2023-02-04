@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/buttons",
+      "dest": "/"
+    },
+    {
+      "src": "/inputs",
+      "dest": "/"
+    },
+    {
+      "src": "/spaces",
+      "dest": "/"
+    },
+    {
+      "src": "/colors",
+      "dest": "/"
+    },
+    {
+      "src": "/typography",
+      "dest": "/"
+    },
+    {
+      "src": "/grid",
+      "dest": "/"
+    }
+  ]
+}
