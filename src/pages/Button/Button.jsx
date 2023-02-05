@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Button as ButtonWidget } from "../../components/Button";
 import Icon from "../../../images/shopping_cart_black_24dp.svg";
 
-const Div = styled.div`
+export const Div = styled.div`
 	padding: 50px;
 	h1 {
 		font-size: 24px;
